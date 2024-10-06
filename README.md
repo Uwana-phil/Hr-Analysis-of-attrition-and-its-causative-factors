@@ -1,6 +1,18 @@
 # Hr-Analysis-of-attrition-and-its-causative-factors
 This analysis aims to uncover the key drivers behind employee attrition within an organisation. By carefully examining the workforce data, i identify patterns and trends that may contribute to factors like employee's geographic (gender, age, marital status, tenure), job role, work-life balance,  compensation, training, 
 
+## Table of Contents
+- [Data Source](#data-source)
+- [Tools](#tools)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Findings](#findings)
+- [Recommendations](#recommendations)
+- [Additional General Recommendation](#additional-general-recommendation)
+- [Limitations](#limitations)
+
+
 ### Data Source:
 HR Data: The primary dataset used for this analysis is the "HR_df.csv" file containing information of a private organisation.
 
@@ -11,7 +23,7 @@ The tools used for this analysis are;
 - Tableau - For creating reports and Visualization
   - [Download Here](https://public.tableau.com/app/profile/philips.jeffrey/viz/HRanalysisandthecausativefactorsofattrition/Dashboard2)
 
-### Data Cleaning/Preparation:
+### Data Cleaning and Preparation:
 In the initial stage of the data preparation phase, we perform the following tasks:
 1. Import Libraries for the Analysis
 2. Load and Inspect the dataset
@@ -33,7 +45,7 @@ The EDA involves exploring the dataset to answer key questions, such as;
 - Does inadequate training contribute to attrition?
 
 ### Data Analysis:
-Herein some interesting codes/features worked with
+Include some interesting codes/features worked with
 
 #### Importing Libraries for the analysis and Loading the Dataset
 ```Python
@@ -209,7 +221,7 @@ gender_in_each_dept = attrition_yes.groupby('Department')['Gender'].value_counts
 gender_in_each_dept
 ```
 
-### Results/Findings:
+### Findings:
 The analysis results are summarised as follows
 - The total employee count of the organization is 2000 with 325 attrition count.
 - The organization has a high attrition rate of 16.3%
@@ -235,5 +247,24 @@ Based on the analysis, we recommend the following actions;
   - Break down attrition rates by job roles and seniority levels to see if there are specific departments or roles where male employees are more likely to leave.
 - Lack of Training Among Employees Aged 18-39
   - Increase the frequency and quality of training programs, particularly for employees aged 18-39
-  - 
+  - Create personalized training plans and ensure that employees in this age group receive at least 6 training sessions per year. Introduce digital learning platforms to provide on-demand training opportunities that employees can take advantage of at their own pace.
+- High Attrition Among Single Employees (Over 50%)
+  - Implement policies that cater to the work-life balance and well-being of single employees.
+  - Offer flexible working hours, remote work options, or social programs that help single employees feel more connected to the company. Consider benefits such as gym memberships, wellness programs, or social clubs that may enhance their work-life satisfaction.
+- Job Roles with Increased Attrition: Research Scientists, Lab Technicians, and Sales Executives
+  - Review the job satisfaction levels, workload, and career growth opportunities for these roles.
+  - Conduct focused interviews with employees in these roles to understand the root causes of their dissatisfaction. Consider revising job responsibilities, offering more competitive compensation, or improving promotion opportunities within these roles.
+  - Compare their compensation, workload, and benefits with industry standards to ensure competitiveness.
+- Lower Compensation for Attrited Employees
+  - Address income inequality and improve compensation structures, especially for employees in critical roles or high-risk groups (e.g., Research Scientists, Lab Technicians, Sales Executives)
+  - Regularly conduct salary benchmarking to ensure that compensation is competitive within the industry. Consider implementing performance-based bonuses or incentives to motivate and retain employees.
+### Additional General Recommendation:
+  1. Employee Engagement Programs
+     - Launch engagement programs to improve employee satisfaction, communication, and sense of belonging. Regularly monitor morale through engagement surveys
+  2. Work-Life Balance Initiatives
+     - Explore initiatives like flexible schedules, remote work options, or employee well-being programs to reduce stress and improve overall employee satisfaction.
 
+### Limitations:
+- I had to remove irrelevant columns in the dataset to arrive at an accurate result
+- I also fill the null values because they may affect the accuracy of my findings.
+- Attributes like 'job performance' are omitted from the dataset but then we still arrived at an accurate conclusion.
