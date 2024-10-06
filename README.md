@@ -16,6 +16,10 @@
 ## Project Overview:
 This analysis aims to uncover the key drivers behind employee attrition within an organisation. By carefully examining the workforce data, i identify patterns and trends that may contribute to factors like employee's geographic (gender, age, marital status, tenure), job role, work-life balance,  compensation, training, 
 
+![hr_dashboard2](https://github.com/user-attachments/assets/b8f1801a-d735-4c0f-85ed-f42cb531b2cf)
+
+
+
 ### Data Source:
 HR Data: The primary dataset used for this analysis is the "HR_df.csv" file containing information of a private organisation.
 
