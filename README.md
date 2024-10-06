@@ -1,7 +1,7 @@
 # Hr-Analysis-of-attrition-and-its-causative-factors
-This analysis aims to uncover the key drivers behind employee attrition within an organisation. By carefully examining the workforce data, i identify patterns and trends that may contribute to factors like employee's geographic (gender, age, marital status, tenure), job role, work-life balance,  compensation, training, 
 
 ## Table of Contents
+- [Project Overview](#project-overview)
 - [Data Source](#data-source)
 - [Tools](#tools)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
@@ -13,6 +13,8 @@ This analysis aims to uncover the key drivers behind employee attrition within a
 - [Limitations](#limitations)
 
 
+## Project Overview:
+This analysis aims to uncover the key drivers behind employee attrition within an organisation. By carefully examining the workforce data, i identify patterns and trends that may contribute to factors like employee's geographic (gender, age, marital status, tenure), job role, work-life balance,  compensation, training, 
 
 ### Data Source:
 HR Data: The primary dataset used for this analysis is the "HR_df.csv" file containing information of a private organisation.
