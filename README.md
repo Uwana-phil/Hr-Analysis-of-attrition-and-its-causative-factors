@@ -18,6 +18,7 @@ This analysis aims to uncover the key drivers behind employee attrition within a
 
 ![hr_dashboard2](https://github.com/user-attachments/assets/b8f1801a-d735-4c0f-85ed-f42cb531b2cf)
 
+![Dashboard](https://github.com/user-attachments/assets/cb25358f-924a-49f4-a984-828d9fd42e10)
 
 
 ### Data Source:
