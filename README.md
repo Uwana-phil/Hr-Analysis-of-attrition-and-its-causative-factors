@@ -275,3 +275,6 @@ Based on the analysis, we recommend the following actions;
 - I had to remove irrelevant columns in the dataset to arrive at an accurate result
 - I also fill the null values because they may affect the accuracy of my findings.
 - Attributes like 'job performance' are omitted from the dataset but then we still arrived at an accurate conclusion.
+
+😙
+😄
